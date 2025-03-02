@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: URL(https://brandfetch.com/kuda.com?view=library&library=default&collection=fonts&asset=id1vFFZhYw&utm_source=https%253A%252F%252Fbrandfetch.com%252Fkuda.com&utm_medium=copyAction&utm_campaign=brandPageReferral);
+}
+.header{
+    width: 100%;
+    background-color:#fff ;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn{
+    background-color: #EEF1FF;
+    color: #40196D;
+    border-color: #40196D;
+    border-radius: 10px;    
+}
+.btn:hover{
+    transform: translateY(-3px);
+    transition: 1s;
+    background-color: #EEF1FF;
+    color: #40196D;
+    border-color: #40196D;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    padding-top: 8rem;
+    align-content: center;
+    background-image: (url());
+}
+.card1{
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: px;
+    padding-right: 10px;
+    border: 20px black ;
+    background-color: #EEF1FF;
+    border-radius: 10px;
+    width: 70%;
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    border-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card2{
+    border: 50px black  ;
+    background-color: #FFF;
+    width: 70%;
+    border-radius: 10px;
+    padding: 3rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    border-color: black;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.disclaimer{
+    font-size: .785rem !important;
+    margin-top: 21px;
+    max-width: 315px;
+    line-height: 1.4;
+}
+.text-semi-bold {
+    font-weight: 600;
+}
+.forgot-label {
+    font-size: .8125rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.forgot-label .color-primary {
+    cursor: pointer;
+    font-weight: 700;
+    color: #40196D;
+}
+h4{
+    font-size: 1.375rem;
+    line-height: 1.3;
+    font-weight: 900;
+}
+p{
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+}
+.right{
+    /* width: 30%; */
+
+}
+.picture{
+
+    margin-top: 5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.container-fluid{
+    /* width: 50%; */
+}
+
+.kuda-footer {
+    padding-top: 5% !important;
+}
+.animated {
+    animation-duration: .8s;
+    animation-fill-mode: both;
+    position: relative;
+}
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+footer {
+    border-top: 1px solid rgba(223, 227, 255, .5);
+    margin-top: 80px;
+}
+footer .container {
+    max-width: 1180px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+.kuda-footer--nav {
+    display: flex;
+}
+.kuda-footer--col:not(:last-child) {
+    margin-right: 30px;
+}
+.kuda-footer--col {
+    width: 20%;
+}
+.coming-soon--downloads {
+    gap: 10px;
+    margin-top: 4.5rem;
+}
+.flex {
+    display: flex !important;
+}
+a {
+    color: #40196D;
+    text-decoration: none;
+}
+.available {
+    opacity: 1 !important;
+}
+.footer-product--vary {
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+.color-primary {
+    color: var(--primaryColor);
+}
+.footer-contact--information {
+    display: flex;
+    justify-content: space-between;
+    margin: 4.3rem 0;
+}
+.information-col:not(:last-child) {
+    margin-right: 30px;
+}
+.information-col {
+    width: 33.33%;
+}
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.color-primary {
+    color: var(--primaryColor);
+}
+.text-bold {
+    font-weight: 700 !important;
+}
+.other-info {
+    margin-top: 15px;
+}
+.other-info {
+    margin-top: 15px;
+}
+.flex-column {
+    flex-direction: column !important;
+}
+.link-decoration {
+    text-decoration: underline;
+}
+.text-bold {
+    font-weight: 700 !important;
+}
+.kuda-socials {
+    margin-top: 23px;
+}
+.kuda-socials li {
+    align-items: center;
+    display: flex;
+}
+.kuda-socials li a {
+    height: 100%;
+    margin-right: 15px;
+}
+.kuda-socials svg {
+    border-radius: 100px;
+    box-shadow: 15px 30px 40px rgba(64, 25, 109, .07);
+}
+.kuda-footer--conditions p {
+    font-size: 12px;
+}
+.pb-2, .py-2 {
+    padding-bottom: .5rem !important;
+}
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .kuda-footer {
+        margin-bottom: 100px !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+   footer .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .footer-contact--information, .kuda-footer--nav {
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .kuda-footer--col:first-child {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .kuda-footer--brand {
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .coming-soon--downloads {
+        align-items: center;
+        gap: 5px;
+        justify-content: space-between;
+        width: 55%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .coming-soon--downloads {
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .coming-soon--downloads>.app-store svg {
+        width: 95.73px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .footer-contact--information {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .footer-contact--information, .kuda-footer--nav {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .information-col:first-child, .kuda-footer--col:first-child {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:321px){
+    .header{
+        display: block;
+        padding-left: 0rem;
+        padding-right: 0em;
+    }
+}
+@media (min-width:2000px){
+    .header{
+        padding-left: 40rem;
+        padding-right: 40rem;
+    }  
+}
+@media (max-width:768px){
+    .header{
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    } 
+}
+@media (max-width:500px){
+    .header{
+        padding-left: 0rem;
+        padding-right: 1rem;
+    } 
+}
+@media (max-width:1200px){
+   .right{
+    display: none;
+   }
+   .card1{
+    width: 100%;
+   }
+   .card2{
+    width: 100%;
+   }
+}
